@@ -535,6 +535,9 @@ body {
 
 .training {
     margin-bottom: 83px;
+    display: flex;
+
+
 }
 
 .training__title {
@@ -551,51 +554,281 @@ body {
     font-size: 16px;
     line-height: 23px;
     text-align: center;
-
-
     color: #4D5777;
 
 }
 
+
+
+
+
 .curse__inner {
     width: 50%;
+
+    display: inline-block;
+    background-image: url(/assets/img/block.svg), url(/assets/img/flag.svg);
+    background-position: left 17%, 1% 20%;
+    background-repeat: no-repeat;
+    padding-left: 80px;
+
 }
 
 
 .training__curse_title {
     margin-top: 55px;
-    margin-right: 252px;
+
+    font-family: Roboto Slab;
+    font-size: 18px;
+    line-height: 28px;
+    color: #354975;
+    padding-right: 118px;
+
 
 }
 
 .training__curse_text {
     margin-top: 44px;
+    font-size: 16px;
+    line-height: 23px;
+    color: #4D5777;
+
+}
+
+.training_block {
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #151D29;
+    font-weight: normal;
+    margin-top: 44px;
+    font-style: normal;
+}
+
+.training_prep {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 23px;
+    color: #D6D6D6;
+}
+
+.training_prep::after {
+    content: "";
+
+    display: inline-block;
+
+    width: 6px;
+    height: 6px;
+    border-right: 2px solid #00B3C1;
+    border-bottom: 2px solid #00B3C1;
+    margin-left: 5px;
+    transform: rotate(-45deg);
+    cursor: pointer;
 }
 
 
 
 
+.review {
+    background: #E9F0F6;
+    display: flex;
+}
+
+.review__block {
+
+    margin-top: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+}
+
+.review__web {
+
+    text-align: center;
+
+    width: 33.33333%;
+    display: inline-block;
+    padding: 0 51px;
+}
+
+.review__img {
+    text-align: center;
+    background: transparent;
+    margin-bottom: 27px;
+}
+
+.reivew__title {
+    margin-top: 27px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #151D29
+}
+
+
+.reivew__text {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 56px;
+    color: #151D29;
+}
+
+.news {
+    margin-top: 90px;
+
+}
+
+.news__title {
+    font-family: Roboto Slab;
+    font-size: 28px;
+    line-height: 44px;
+    text-align: center;
+    color: #354975;
+}
+
+.news__block {
+    margin-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news__block__news {
+
+    width: 33.33333%;
+    display: inline-block;
+    padding: 0 51px;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #151D29
+}
+
+.block_2 {
+    opacity: .5;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.block_2:after {
+    content: "";
+
+    display: inline-block;
+
+    width: 6px;
+    height: 6px;
+    border-right: 2px solid #00B3C1;
+    border-bottom: 2px solid #00B3C1;
+    margin-left: 5px;
+    transform: rotate(-45deg);
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+.block_3 {
+    opacity: .5;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.news__all {
+    margin-top: 42px;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #00B3C1;
+    cursor: pointer;
+
+    margin-bottom: 72px;
+}
+
+.news__rectangle {
+
+    width: 1256px;
+    height: 270px;
+    background: linear-gradient(90deg, #00B3C1 0%, #1188B2 100%);
+    border-radius: 4px;
+    margin-bottom: 45px;
+
+}
+
+.news__rectangle__content {
+
+    width: 33.33333%;
+    display: inline-block;
+}
+
+.news__rectangle_title {
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 44px;
+    color: #FFFFFF;
+
+    padding-top: 100px;
+    padding-left: 81px;
+    width: 322px;
+}
 
 
 
+.news__email {
+
+    border-radius: 100px;
+    border: transparent;
+
+    position: relative;
+    top: 40%;
+    left: 50%;
+    width: 456px;
+    height: 72px;
+    transform: translate(-40%, -50%);
+}
 
 
+.btn__subscribe {
+    width: 216px;
+    height: 72px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background: transparent;
+    position: relative;
+
+    bottom: 13%;
+    left: 6%;
+    color: #fff;
 
 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+}
 
+.email__text {
+    text-align: center;
+    font-size: 12px;
+    line-height: 17px;
 
+    color: #FFFFFF;
+}
 
+.last__title {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
 
+    color: #4D5777;
+    margin-bottom: 24px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.footer {
+    margin-top: 96px;
+    background: #4D5777;
+}
