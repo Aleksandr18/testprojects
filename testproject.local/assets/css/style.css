@@ -56,7 +56,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto-Regular';
+    font-family: 'Roboto Regular';
 }
 
 * {
@@ -67,7 +67,7 @@ body {
 
 
 .header {
-
+    padding-bottom: 7px;
     display: flex;
 
 }
@@ -82,7 +82,6 @@ body {
 }
 
 .logo {
-    margin-left: 69px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -102,6 +101,8 @@ body {
     font-style: normal;
     color: #4D5777;
     text-decoration: none;
+    font-family: 'Roboto-Medium';
+
 }
 .nav-h .link-h {
     margin-right: 12px;
@@ -136,7 +137,7 @@ body {
 
 .call {
     width: 36px;
-    height: 36px;
+    padding: 20px;
 
     border-radius: 50%;
     background-color: #00B3C1;
@@ -148,7 +149,7 @@ body {
 
 .call::after {
     width: 18px;
-    height: 18px;
+    padding: 9px;
     content: "";
     position: absolute;
     top: 50%;
@@ -170,6 +171,10 @@ body {
     text-decoration: none;
     color: #4D5777;
     margin-left: 25px;
+
+    font-family: 'Roboto-Medium';
+
+
 }
 
 
@@ -185,20 +190,23 @@ body {
     font-size: 16px;
     text-decoration: none;
     color: #4D5777;
+    line-height: 19px;
+    font-family: 'Roboto-Medium';
 }
 
 .btn {
     width: 160px;
-    height: 48px;
     margin-left: 20px;
     border: 2px solid #00B3C1;
     box-sizing: border-box;
     border-radius: 100px;
     background-color: #fff;
 
+    padding: 12.5px 10px;
+    font-weight: 500;
     font-size: 16px;
     text-align: center;
-
+    font-family: 'Roboto-Medium';
 
     color: #4D5777;
 }
@@ -206,19 +214,20 @@ body {
 .btn:hover {
     background-color: #00B3C1;
     cursor: pointer;
+    color: #fff;
 
 }
 
 .wantprog {
-    margin-top: 7px;
     position: relative;
+    padding-top: 40%;
 
 }
 
 .text {
 
     font-size: 32px;
-    font-family: Roboto-Slab;
+    font-family: Roboto Slab;
     font-style: normal;
     color: #fff;
     text-align: center;
@@ -226,22 +235,27 @@ body {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -30%);
-    width: 420px;
+    width: 517px;
     margin: auto;
     z-index: 1;
 }
 
 .fone {
     width: 100%;
-    height: 760px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
 }
+
 
 .wantprog::after {
     content: "";
     background: #4d5777;
     position: absolute;
     display: inline-block;
-    opacity: 0.3;
+    opacity: 0.5;
     top: 0;
     left: 0;
     width: 100%;
@@ -252,15 +266,21 @@ body {
 .buttons {
     top: 50%;
     left: 50%;
+    width: 100%;
+    display: block;
+    text-align: center;
     transform: translate(-50%, -50%);
     position: absolute;
     z-index: 1;
 }
 
 .btn-first {
-    width: 241px;
-    height: 72px;
+    max-width: 240px;
+    width: 100%;
 
+    display: inline-block;
+    vertical-align: middle;
+    padding: 23px 10px;
     border: 3px solid #fff;
     box-sizing: border-box;
 
@@ -281,31 +301,29 @@ body {
 
 
 .takecurse {
-    width: 1256px;
-    height: 180px;
+    max-width: 1256px;
+    width: 100%;
+
     border-radius: 4px;
     background: #fff;
-    position: absolute;
+    position: relative;
     border-radius: 4px;
     box-shadow: 0px 2px 5px rgba(162, 171, 189, 0.3);
-    margin-top: -100px;
-    padding: 47px 0 63px;
+    bottom: -90px;
+    padding: 47px 0px 44px;
     z-index: 1;
-
-
 }
 
 .takecurse-title {
     text-align: center;
     font-size: 18px;
 
-    font-family: Roboto-Slab;
+    font-family: Roboto Slab;
     color: #4D5777;
     line-height: 28px;
 
     position: relative;
-
-    width: 420px;
+    width: 488px;
     padding-bottom: 39px;
     margin: auto;
 }
@@ -317,14 +335,14 @@ body {
     /*top: 75%;*/
     display: flex;
     justify-content: center;
-    margin-bottom: 48px;
+    margin-bottom: 0;
 
 }
 
 
 .figure-item {
     width: 5px;
-    height: 5px;
+    padding: 3px;
     background: #00B3C1;
     margin-right: 48px;
 
@@ -354,7 +372,7 @@ body {
 
     position: absolute;
     width: 295px;
-    height: 264px;
+
     padding-right: 24px;
     z-index: 1;
 }
@@ -389,6 +407,7 @@ body {
     margin-top: 31px;
     text-align: center;
     color: #151D29;
+    font-family: Roboto;
 }
 
 .curse__all {
@@ -488,24 +507,28 @@ body {
 
 
 
-.curse__img {
-    width: calc(100% - 180px);
 
-}
 
 .curse__block-curse {
     width: 295px;
     height: 264px;
     margin-top: 159px;
+
 }
 
 
 .owl-curse .owl-item img {
     display: block;
     width: 107px;
-    height: 99px;
-    margin: auto;
 
+    margin: auto;
+}
+
+.owl-curse .owl-item:nth-child(3) img {
+    display: block;
+    width: 130px;
+
+    margin: auto;
 }
 
 
@@ -515,7 +538,7 @@ body {
     transform: translate(-50%, 0);
     margin: 80px 0;
     width: 241px;
-    height: 72px;
+   padding: 25px;
     margin-left: 20px;
     border: 4px solid #00B3C1;
     box-sizing: border-box;
@@ -525,11 +548,13 @@ body {
     font-size: 16px;
     text-align: center;
     color: #00B3C1;
+    cursor: pointer;
 }
 
 .btn__curse:hover {
+    color: #fff;
+    background: #00B3C1;
 
-    cursor: pointer;
 }
 
 
@@ -542,7 +567,7 @@ body {
 
 .training__title {
     font-family: Roboto Slab;
-    font-style: normal;
+    font-weight: bold;
     font-size: 28px;
     text-align: center;
     color: #354975;
@@ -555,10 +580,14 @@ body {
     line-height: 23px;
     text-align: center;
     color: #4D5777;
+    font-weight: normal;
 
 }
 
-
+.training__img {
+    width: 50%;
+    position: absolute;
+}
 
 
 
@@ -578,10 +607,12 @@ body {
     margin-top: 55px;
 
     font-family: Roboto Slab;
+    font-weight: bold;
     font-size: 18px;
     line-height: 28px;
     color: #354975;
     padding-right: 118px;
+
 
 
 }
@@ -639,6 +670,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 56px;
+
+    margin-left: -15px;
+    margin-right: -15px;
+
+    width: calc(100% + 30px);
 }
 
 .review__web {
@@ -667,6 +703,11 @@ body {
 }
 
 
+.review__parent {
+
+}
+
+
 .reivew__text {
     font-size: 16px;
     line-height: 23px;
@@ -692,6 +733,10 @@ body {
     margin-top: 26px;
     display: flex;
     flex-wrap: wrap;
+
+    margin-left: -15px;
+    margin-right: -15px;
+    width: calc(100% + 30px);
 }
 
 .news__block__news {
@@ -749,11 +794,12 @@ body {
 
 .news__rectangle {
 
-    width: 1256px;
-    height: 270px;
+    max-width: 1256px;
+    width: 100%;
     background: linear-gradient(90deg, #00B3C1 0%, #1188B2 100%);
     border-radius: 4px;
     margin-bottom: 45px;
+
 
 }
 
@@ -761,6 +807,10 @@ body {
 
     width: 33.33333%;
     display: inline-block;
+
+    background-image: url("/assets/img/news__plane.svg");
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .news__rectangle_title {
@@ -773,6 +823,7 @@ body {
     padding-top: 100px;
     padding-left: 81px;
     width: 322px;
+
 }
 
 
@@ -782,18 +833,23 @@ body {
     border-radius: 100px;
     border: transparent;
 
-    position: relative;
-    top: 40%;
-    left: 50%;
+
+    top: 26px;
     width: 456px;
-    height: 72px;
-    transform: translate(-40%, -50%);
+
+    padding: 25px;
+    font-size: 16px;
+    line-height: 23px;
+    margin-right: 38px;
+    padding-left: 24px;
+    color: #A2ABBD;
 }
+
 
 
 .btn__subscribe {
     width: 216px;
-    height: 72px;
+   padding: 25px;
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 100px;
@@ -809,6 +865,11 @@ body {
     font-size: 16px;
     line-height: 23px;
     text-align: center;
+    cursor: pointer;
+}
+
+.btn__subscribe:hover {
+    border: 1px solid #00B3C1;
 }
 
 .email__text {
@@ -817,7 +878,10 @@ body {
     line-height: 17px;
 
     color: #FFFFFF;
+    top: 56px;
 }
+
+
 
 .last__title {
     font-size: 16px;
@@ -831,4 +895,72 @@ body {
 .footer {
     margin-top: 96px;
     background: #4D5777;
+
 }
+
+.footer__content {
+    display: flex;
+}
+
+.footer__title {
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer__curse {
+    color: #A2ABBD;
+    padding-top: 91px;
+    padding-left: 85px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 42px;
+}
+
+.footer__curse:nth-child(2) {
+    padding-top: 134px;
+}
+
+.footer__curse:last-child {
+    width: 240px;
+    background-image: url("/assets/img/vk.svg"),
+                      url("/assets/img/facebook.svg"),
+                      url("/assets/img/instagram.svg"),
+                      url("/assets/img/twitter.svg");
+
+
+    background-position: 104px, 154px, 184px, 213px;
+    background-repeat: no-repeat;
+
+    margin-right: 24px;
+    cursor: pointer;
+
+}
+
+
+.footer__last {
+    margin-top: 111px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 33px;
+    color: #A2ABBD;
+    padding-bottom: 40px;
+    padding-left: 91px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
