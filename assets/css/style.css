@@ -99,6 +99,10 @@ header {
     vertical-align: middle;
 }
 
+.logo {
+    margin-right: 62px;
+}
+
 .nav-h {
     display: inline-block;
     vertical-align: middle;
@@ -122,18 +126,8 @@ header {
     font-style: normal;
     color: #4D5777;
     text-decoration: none;
-
-    font-family: 'Roboto-Medium';
-
-}
-
-.link-h {
     margin-right: 12px;
-}
-
-
-.link-h.main-c  {
-    margin-left: 10px;
+    font-family: 'Roboto-Medium';
 
 }
 
@@ -199,14 +193,6 @@ header {
 
 }
 
-.sign {
-    font-size: 16px;
-    text-decoration: none;
-    color: #4D5777;
-    line-height: 19px;
-    font-family: 'Roboto-Medium';
-}
-
 .btn {
     max-width: 160px;
     width: 100%;
@@ -233,32 +219,40 @@ header {
 
 .wantprog {
     position: relative;
-    padding-top: 40%;
+    padding-top: 52.5%;
 
 }
 
 .wantprog__parent {
-    top: 37%;
+    top: 50%;
     left: 50%;
-
     display: block;
     text-align: center;
-    transform: translate(-50%, -37%);
+    transform: translate(-50%, -50%);
     position: absolute;
     z-index: 1;
-    max-width: 525px;
-    width: 100%;
+    padding-bottom: 117px;
+}
+
+.mainInfoBox {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -90px;
+    z-index: 1;
 }
 
 .wantprogText {
 
     font-size: 32px;
-    font-family: 'Roboto-Bold';
-
+    font-family: 'Roboto Slab';
+    line-height: 1.5;
     color: #fff;
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 120px;
+    max-width: 540px;
+    width: 100%;
+
+    margin: 0 auto 90px auto;
 
 }
 
@@ -288,26 +282,19 @@ header {
 
 .buttons {
     text-align: center;
+    margin: 0 12px;
 }
 
 .btn-first {
     max-width: 240px;
     width: 100%;
-
-    display: inline-block;
-    vertical-align: middle;
     padding: 23px 10px;
     border: 3px solid #fff;
-    box-sizing: border-box;
-
     outline: none;
     background: transparent;
-
     font-size: 16px;
     text-align: center;
-    font-weight: 500;
     color: #fff;
-    margin-right: 24px;
 
 }
 
@@ -334,13 +321,11 @@ header {
 .takecurse {
     max-width: 1256px;
     width: 100%;
-
     border-radius: 4px;
     background: #fff;
-    position: absolute;
+    position: relative;
     border-radius: 4px;
     box-shadow: 0px 2px 5px rgba(162, 171, 189, 0.3);
-    bottom: -90px;
     padding: 47px 0px 44px;
     z-index: 1;
 }
@@ -350,7 +335,7 @@ header {
     font-size: 18px;
     font-family: Roboto Slab;
     color: #4D5777;
-    line-height: 28px;
+    line-height: 1.5;
     position: relative;
     padding-bottom: 39px;
     margin: auto;
@@ -382,49 +367,52 @@ header {
 
 
 .curse {
-
     display: flex;
     background: #E9F0F6;
+    padding-top: 177px;
+    padding-bottom: 96px;
 }
 
 .curse__item {
     text-align: center;
     position: relative;
-    margin-bottom: 41px;
-
 }
+
 
 .curse__title {
     font-family: 'Roboto Slab';
     font-size: 28px;
-    line-height: 44px;
+    line-height: 1.5;
     text-align: center;
-
     color: #354975;
     margin: 0;
 }
 
 .curse__text {
     font-size: 16px;
-    line-height: 23px;
+    line-height: 1.5;
     text-align: center;
-
     color: #4D5777;
+    margin-bottom: 41px;
 }
 
-.take_curse {
+
+.take_curse.curseFirst {
     position: absolute;
-    width: 295px;
+    max-width: 295px;
+    width: 100%;
     z-index: 1;
 }
 
+
 .curse__title-curse {
     font-size: 18px;
-
     text-align: center;
     color: #354975;
-
+    margin: 0;
+    margin-bottom: 31px;
 }
+
 
 .curse__title-curse-first {
     color: #354975;
@@ -436,17 +424,18 @@ header {
     text-align: left;
     font-weight: normal;
     font-size: 16px;
-    line-height: 23px;
+    line-height: 1.5;
     margin-bottom: 20px;
 }
 
 .curse__text-curse {
     font-size: 16px;
-    margin: 0 65px;
     text-align: center;
+
     color: #151D29;
     font-family: Roboto;
 }
+
 
 .curse__all {
     color: #00B3C1;
@@ -456,7 +445,7 @@ header {
 
 /* Блоки */
 .owl-curse {
-    width: calc(100% - 213px );
+    width: calc(100% - 253px );
 }
 
 
@@ -479,16 +468,22 @@ header {
     display: none;
 }
 
-.curse__block  {
+.curse__block {
     position: relative;
-    max-width: 296px;
-    width: 100%;
+    width: 296px;
     height: 380px;
     background: #fff;
     border-radius: 4px;
+    text-align: center;
 
 }
 
+.take_curse {
+    padding-top: 51px;
+    width: 100%;
+    max-width: 215px;
+    margin: auto;
+}
 
 .curse__block-hidden:hover {
     opacity: 1;
@@ -504,6 +499,7 @@ header {
     left: 0;
     height: 100%;
     z-index: 1;
+    padding-top: 65px;
 }
 
 .curse__block.hidden:hover {
@@ -516,7 +512,7 @@ header {
     text-align: center;
     margin: 0 auto;
     width: 85%;
-
+    margin-bottom: 103px;
 }
 
 
@@ -529,11 +525,9 @@ header {
     border-radius: 100px;
     padding: 15px;
     color: #fff;
-    margin: 110px 68px;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
-    line-height: 23px;
 
     outline: 0;
 }
@@ -550,16 +544,21 @@ header {
 .curse__block-curse {
     max-width: 295px;
     width: 100%;
-
-
+    padding-top: 64px;
 }
 
+.owl-item {
+    max-width: 296px;
+    width: 100%;
+}
 
 .owl-curse .owl-item img {
     display: block;
-    width: 107px;
-
-    margin: auto;
+    width: 163px;
+    height: 107px;
+    margin: 0 auto;
+    margin-bottom: 39px;
+    object-fit: contain;
 }
 
 
@@ -584,7 +583,6 @@ header {
     color: #00B3C1;
     cursor: pointer;
     outline: 0;
-    margin-bottom: 96px;
 
 }
 
@@ -614,7 +612,7 @@ header {
 
 .training__text {
     font-size: 16px;
-    line-height: 23px;
+    line-height: 1.5;
     text-align: center;
     color: #4D5777;
     font-weight: normal;
@@ -702,7 +700,7 @@ header {
     background: #E9F0F6;
     display: flex;
     padding-top: 95px;
-    margin-bottom: 90px;
+    padding-bottom: 24px;
 }
 
 .review__block {
@@ -725,7 +723,7 @@ header {
     width: 100%;
     display: inline-block;
     padding: 0 15px;
-    padding-bottom: 65px;
+    margin-bottom: 67px;
     max-width: 330px;
 }
 
@@ -735,17 +733,6 @@ header {
     margin-bottom: 27px;
 }
 
-.reivew__title {
-    margin-top: 27px;
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 23px;
-    text-align: center;
-    color: #151D29
-}
-
-
 
 .reivew__text {
     font-size: 16px;
@@ -754,11 +741,15 @@ header {
     color: #151D29;
 }
 
+.news {
+    padding: 92px 0;
+}
+
 
 .news__title {
     font-family: Roboto Slab;
     font-size: 28px;
-    line-height: 44px;
+    line-height: 1.5;
     text-align: center;
     color: #354975;
     font-weight: bold;
@@ -772,7 +763,6 @@ header {
     margin-left: -15px;
     margin-right: -15px;
     width: calc(100% + 30px);
-    margin-bottom: 42px;
 
 }
 
@@ -780,19 +770,23 @@ header {
     display: inline-block;
     font-weight: normal;
     font-size: 16px;
-    line-height: 23px;
+    line-height: 1.5;
     text-align: left;
     max-width: 352px;
     padding: 0 15px;
     width: 33.33333%;
+    color: #151D29;
+    margin-bottom: 42px;
+}
 
-    color: #151D29
+.blog_1 {
+    margin-bottom: 20px;
 }
 
 .block_2 {
     opacity: .5;
     padding: 10px 0;
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .block_2:after {
@@ -814,22 +808,22 @@ header {
 .block_3 {
     opacity: .5;
     padding: 10px 0;
-    margin-top: 10px;
+}
+
+.newsLink {
+    text-align: center;
+    margin-bottom: 74px;
 }
 
 .news__all {
-
     font-size: 16px;
-    line-height: 23px;
-    text-align: center;
-
+    line-height: 1.2;
     color: #00B3C1;
-    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
 
-    margin-bottom: 72px;
+    text-align: center;
 }
-
-
 
 /* Rectangle */
 .news__rectangle {
@@ -936,7 +930,7 @@ header {
 
 .rectangle__text {
     font-size: 12px;
-    line-height: 17px;
+    line-height: 1.2;
 
     color: #FFFFFF;
     text-align: center;
@@ -950,7 +944,7 @@ header {
 
 .last__title {
     font-size: 16px;
-    line-height: 23px;
+    line-height: 1.5;
     text-align: center;
 
     color: #4D5777;
@@ -959,15 +953,13 @@ header {
 }
 
 
-
-.footer {
-    margin-top: 96px;
+footer {
     background: #4D5777;
+    padding: 91px 0;
 }
 
 .footer__content {
     display: flex;
-    padding-top: 80px;
     justify-content: space-between;
     margin-bottom: 111px;
 }
@@ -995,12 +987,14 @@ header {
 .footer__title {
     color: #fff;
     font-size: 16px;
+    margin: 0;
 }
 
 .footer__curse {
-    color: #A2ABBD;
+
     font-weight: bold;
     font-size: 16px;
+    line-height: 2.5;
 
 }
 
@@ -1019,28 +1013,172 @@ li {
 }
 
 
-.footer__curse:last-child {
-
-    background-image: url("/assets/img/vk.svg"), url("/assets/img/facebook.svg"),
-                      url("/assets/img/instagram.svg"), url("/assets/img/twitter.svg");
-    background-position: 0 125px, 51px 122px, 80px 125px, 123px 125px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    width: 13%;
-
-}
-
 .footer__last {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 14px;
-    line-height: 33px;
     color: #A2ABBD;
-    padding-bottom: 40px;
+}
 
+.footerTransition {
+    color: #A2ABBD;
+    text-decoration: none;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.footerTransition img {
+    margin-right: 24px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+/* media */
+
+
+@media screen and (max-width: 1200px){
+    .wantprog__parent {
+        padding-bottom: 0;
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        display: none;
+    }
+
+    .curse__block {
+        margin-bottom: 24px;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        display: flex;
+    }
+
+    .curse__inner {
+        background-position: left 4%, 1.5% 6%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .nav-h {
+        display: none;
+    }
+
+    .wantprogText {
+        font-size: 30px;
+    }
+
+    .btn-first {
+        padding: 20px 10px;
+    }
+
+    .takecurse {
+        padding: 30px 0 30px;
+    }
+
+    .curse__block {
+        width: 290px;
+    }
+
+    .curse__inner {
+        width: 40%;
+        background-position: left 4%, 1.5% 5%;
+    }
+
+    .training__img {
+        width: 60%;
+    }
+
+    .review__block {
+        justify-content: center;
+    }
+
+    .footer__curse {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .wantprogText {
+        font-size: 23px;
+    }
+
+    .buttons {
+        display: flex;
+    }
+
+    .choose__curse {
+        display: block;
+    }
+
+    .curse__block-curse {
+        max-width: 295px;
+        padding-bottom: 30%;
+        padding-left: 43%;
+    }
+    .take_curse.curseFirst {
+        padding: 0;
+    }
+
+    .owl-curse {
+        width: calc(100% + 10px);
+    }
+
+    .no-js .owl-carousel, .owl-carousel.owl-loaded {
+        display: block;
+        padding-left: 87px;
+    }
+
+    .curse__inner {
+        width: 100%;
+        background-position: left 4%, 1.5% 5%;
+        margin-bottom: 50px;
+    }
+
+    .training__img {
+        width: 100%;
+    }
+
+    .news__rectangle {
+        padding: 60px 0;
+    }
+
+    .news__title_text {
+        font-size: 20px;
+    }
+
+    .rectangle__text {
+        font-size: 11px;
+    }
+
+    .footer__content {
+        display: block;
+        max-width: 380px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .footer__curse {
+        font-size: 20px;
+    }
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

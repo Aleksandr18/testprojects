@@ -2,61 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b86d3123-aff8-47f5-9f35-a01d08bf1c81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/css/OwlCarousel2-2.3.4.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/css/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Medium.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/RobotoSlab-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/RobotoSlab-Black.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/RobotoSlab-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/RobotoSlab-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/RobotoSlab-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/RobotoSlab-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/RobotoSlab-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/fonts/font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/Vector.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/block.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/flag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/fone.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/icon4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/icon5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/icon6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/js.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/js.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/news__plane.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/php.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/plane.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/test.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/training.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/img/vk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/js/jquery-3.5.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testproject.local/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/css/OwlCarousel2-2.3.4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/css/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Medium.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/Roboto-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/RobotoSlab-Black.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/RobotoSlab-Black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/RobotoSlab-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/RobotoSlab-Black.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/RobotoSlab-Black.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/RobotoSlab-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/RobotoSlab-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/fonts/font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/Vector.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/block.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/flag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/fone.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/icon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/icon4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/icon5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/icon6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/js.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/js.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/news__plane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/php.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/plane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/training.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/img/vk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/js/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testproject.local/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +108,9 @@
       <workItem from="1597299047900" duration="26181000" />
       <workItem from="1597385812997" duration="26132000" />
       <workItem from="1597644734921" duration="26115000" />
-      <workItem from="1597730935370" duration="25667000" />
+      <workItem from="1597730935370" duration="26007000" />
+      <workItem from="1597817612095" duration="26230000" />
+      <workItem from="1597903869941" duration="25761000" />
     </task>
     <servers />
   </component>
@@ -123,14 +129,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596874457634" />
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597050698696">
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597762232139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597050698696" />
-    <state x="990" y="28" width="587" height="888" key="find.popup" timestamp="1597304371355">
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597762232139" />
+    <state x="990" y="28" width="587" height="888" key="find.popup" timestamp="1597821123605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="990" y="28" width="587" height="888" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597304371355" />
+    <state x="990" y="28" width="587" height="888" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597821123605" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1597818995322">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597818995322" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597386206981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
