@@ -12,13 +12,15 @@ $('.owl-curse').owlCarousel({
 
         300: {
             items: 1,
-            nav: false
+            nav: false,
+            loop: true,
+            autoplay: true
         },
 
         540: {
-            items: 2,
+            loop: true,
+            items: 1,
             nav: false,
-            autoplay: false,
 
         },
         1200: {
@@ -28,7 +30,6 @@ $('.owl-curse').owlCarousel({
         },
     }
 })
-
 
 
 $(function() {
