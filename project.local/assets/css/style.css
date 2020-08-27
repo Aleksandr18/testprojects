@@ -81,6 +81,9 @@ header.fixed {
 }
 
 .headerLink {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -810,6 +813,7 @@ header.fixed {
 .block_3 {
     opacity: .5;
     padding: 10px 0;
+    margin-bottom: 42px;
 }
 
 .newsLink {
@@ -823,7 +827,6 @@ header.fixed {
     color: #00B3C1;
     text-decoration: none;
     display: inline-block;
-
     text-align: center;
 }
 
@@ -1290,7 +1293,7 @@ li {
         text-align: center;
         max-width: none;
         display: block;
-        padding: 0 25px;
+        padding: 0 10px;
     }
 
 
@@ -1446,18 +1449,21 @@ li {
 
 
     .wantprogText {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .btn-first {
-        padding: 12px;
+        max-width: 125px;
+        padding: 8px;
+        margin: 8px;
     }
 
 
 
     .takecurse-title {
-        font-size: 14px;
+        font-size: 12px;
         padding-bottom: 15px;
+        white-space: pre-line;
     }
 
 
