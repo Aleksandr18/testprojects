@@ -35,12 +35,13 @@ $('.owl-curse').owlCarousel({
 $(function() {
 
     let nav = $("#nav-h");
+
     let navToggle = $("#navToggle");
     navToggle.on("click", function() {
 
         event.preventDefault();
-
         nav.toggleClass("show");
+
 
     });
 });
@@ -49,3 +50,7 @@ $(function() {
 document.querySelector('.burger').addEventListener('click', function(){
     document.querySelector('.burger span').classList.toggle('active');
 })
+
+$(document).ready(function () {
+
+});
